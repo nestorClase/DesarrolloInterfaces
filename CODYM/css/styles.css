@@ -65,3 +65,33 @@ body {
 img{
     width: 65px;
 }
+
+.custom-dropdown {
+    position: absolute;
+    top: 125px; /* Ajusta esta distancia según la altura del navbar */
+    left: 15px; /* Ajusta para posicionar debajo del logo */
+}
+
+
+/* Estilo de los elementos del dropdown */
+.dropdown-menu {
+    background-color: #E40505;
+    border: none;
+    display: none; /* Ocultar por defecto */
+}
+
+.dropdown-menu.show {
+    display: block; /* Mostrar cuando se haga clic */
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #E40505;
+}
+
+.subelement{
+    left:20px;
+}
